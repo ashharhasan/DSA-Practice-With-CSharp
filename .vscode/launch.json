@@ -1,0 +1,49 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": ".NET Core Launch (EncodeDecode)",
+        "type": "coreclr",
+        "request": "launch",
+        "program": "${workspaceFolder}/EncodeDecode/EncodeDecode/bin/Debug/net9.0/EncodeDecode.dll",
+        "args": [],
+        "cwd": "${workspaceFolder}/EncodeDecode/EncodeDecode",
+        "console": "internalConsole",
+        "stopAtEntry": false,
+        "preLaunchTask": "build"
+      },
+      {
+        "name": ".NET Core Launch (GroupAnagram)",
+        "type": "coreclr",
+        "request": "launch",
+        "program": "${workspaceFolder}/GroupAnagram/GroupAnagram/bin/Debug/net9.0/GroupAnagram.dll",
+        "args": [],
+        "cwd": "${workspaceFolder}/GroupAnagram/GroupAnagram",
+        "console": "internalConsole",
+        "stopAtEntry": false,
+        "preLaunchTask": "build"
+      },
+      {
+        "name": ".NET Core Launch (TopkFrequent)",
+        "type": "coreclr",
+        "request": "launch",
+        "program": "${workspaceFolder}/TopkFrequent/TopkFrequent/bin/Debug/net9.0/TopkFrequent.dll",
+        "args": [],
+        "cwd": "${workspaceFolder}/TopkFrequent/TopkFrequent",
+        "console": "internalConsole",
+        "stopAtEntry": false,
+        "preLaunchTask": "build"
+      },
+      {
+        "name": ".NET Core Launch (ProductExceptSelf)",
+        "type": "coreclr",
+        "request": "launch",
+        "program": "${workspaceFolder}/ProductExceptSelf/bin/Debug/net9.0/ProductExceptSelf.dll",
+        "args": [],
+        "cwd": "${workspaceFolder}/ProductExceptSelf",
+        "console": "internalConsole",
+        "stopAtEntry": false,
+        "preLaunchTask": "build"
+      }
+    ]
+  }

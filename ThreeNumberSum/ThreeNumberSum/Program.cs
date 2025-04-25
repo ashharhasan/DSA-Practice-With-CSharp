@@ -7,7 +7,10 @@ List<List<int>> output = ThreeSum(new int[]{-1,0,1,2,-1,-4,-2,-3,3,0,4});
  List<List<int>> ThreeSum(int[] nums) {
         List<List<int>> output = new List<List<int>>();
 
-        Array.Sort(nums);
+        //Array.Sort(nums);
+
+        MergeSort mergeSort = new MergeSort();
+        nums = mergeSort.Sort(nums);
 
         HashSet<string> sset = new HashSet<string>();
         for(int i=0; nums[i]<1;i++)

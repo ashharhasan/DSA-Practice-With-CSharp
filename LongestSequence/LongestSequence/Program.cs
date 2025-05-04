@@ -1,4 +1,4 @@
-﻿Console.WriteLine(LongestConsecutive(new int[]{2,20,4,10,3,4,5}));
+﻿Console.WriteLine(LongestConsecutive(new int[]{2,20,4,10,3,4,5,6}));
 
 int LongestConsecutive(int[] nums) {
         HashSet<int> hset = new HashSet<int>();
